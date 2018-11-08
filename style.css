@@ -1,0 +1,138 @@
+body, html{
+	height: 100%;
+	width: 100%;
+    margin: 0;
+}
+body{
+	background-color: #f4d791;
+	margin-right: 10px;
+	text-align: center;
+	margin-left: auto;
+
+}
+h1{
+	font-family: Antonio;
+	font-size: 2.5em;
+	color: #000;
+	text-align: center;
+	animation: animacao 5s cubic-bezier(0,.78,.99,.23) infinite backwards running ;
+}
+nav ul {
+	list-style: none;
+	background-color: #e9b48c;
+	text-align: center;
+	padding: 2px;
+	margin: 5px;
+}
+nav li{
+	font-family: Antonio, fantasy;
+	font-size: 1.2em;
+	line-height: 60px;
+	height: 2px;
+	display: inline-block;
+	margin: 5px 5px 5px 5px;
+}
+nav a{
+	text-decoration: none;
+	color: #a76847;
+	display: block;
+	transition: 1s background-color;
+}
+nav a:hover{
+	background-color: #fc8036;
+}
+nav a:focus{
+	background-color: none;
+	color: #be7a4b
+	cursor: default;
+}
+@font-face {
+  font-family: "Antonio";
+  src: url("Antonio.ttf");
+  }
+@font-face {
+  font-family: "DeliusSwash";
+  src: url("DeliusSwashCaps.ttf");
+  }
+@font-face {
+  font-family: "JosefinSans";
+  src: url("JosefinSans.ttf");
+  }
+@font-face {
+  font-family: "JosefinSansLight";
+  src: url("JosefinSansLight.ttf");
+  }
+#cxTitulo{
+	padding-top: 10px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 1s;
+    transform-style: unset;
+	z-index: 100000;
+}
+#icones{
+	position: relative;
+	top: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+#contenthome{
+    background: url(bg1.png) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center
+    justify-content: center;
+}
+#contentsobre{
+	background: url(bg2.png) no-repeat center;
+    background-size: cover;
+    z-index: 3;
+    height: 100%
+}
+#contentport{
+	background: url(bg3.png) no-repeat center;
+    background-size: cover;
+    z-index: 3;
+    height: 100%;
+}
+#contentcred{
+	background: url(bg4.png) no-repeat center;
+    background-size: cover;
+    z-index: 3;
+    height: 100%;
+}
+.confcontent{
+	font-family: JosefinSans;
+	font-size: 20px;
+	text-align: justify;
+}
+@keyframes animacao{
+	0% {
+		background-color: #ef3423;
+	}
+	33% {
+		background-color: #de1222;
+	}
+	66% {
+		background-color: #234444;
+	}
+
+	100% {
+		background-color: #456699;
+	}
+}
+#quadrado{
+	width: 500px;
+	height: 500px;
+	border-radius: 15%;
+	background-color: white;
+	animation-play-state: running;
+	animation: animacao 5s cubic-bezier(0,.78,.99,.23) infinite backwards;
+}

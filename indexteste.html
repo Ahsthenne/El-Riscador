@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>El Riscador</title>
+		<meta charset="UTF-8">
+		<meta name="descrição" content="Commissions", "Digital Art", "Portfolio">
+		<meta name="keywords" content="HTML, CSS, XML, JavaScript">
+		<meta name="Author" content="Andre Ahsthenne">
+		<meta name="viewport" content="width=devicewidth, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="styleteste.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">	
+		</script>
+		<script src="jquery-3.1.1.min.js"></script>
+		<script src="jquery.paroller.min.js"></script>
+
+
+
+	</head>
+
+<body>
+<div id="cxnav">
+<nav>
+			 <ol>
+			 <ul>
+			 <li><a href="#img1">Home</a></li>
+			 <li><a href="#img2">Sobre</a></li>
+			 <li><a href="#img3">Portfólio</a></li>
+			 <li><a href="#img4">Contatos</a></li>
+			 </ul>
+			 </ol>
+			</nav>
+</div>
+
+<div class="my-paroller"
+data-paroller-factor="1.9" data-paroller-type="foreground"
+data-paroller-direction="vertical"
+data-paroller-factor-lg="1920"><img src="foguete.png" width="50%"></div>
+
+
+
+<div class="bg-image" id="img1">
+	
+	<h1>El Riscador</h1>
+	<div id ="content">É muito bom te ver por essa terras, espero que tenha feito uma boa aterrissagem. Aqui você encrontrará alguns dos trabalho do designer em construção André Ahsthenne, espero que aproveite a estadia e aproveita e corre pra fazer o pedido de sua arte.</div>
+	<div class="bg-text">
+	
+    </div>
+</div>
+
+<div class="bg-image" id="img2">
+	<h1>Sobre</h1>
+	<div class="bg-textsobre"><br>André Ahsthenne<br><br>Formado em Gestão Portuária, porém sua paixão por desenvolvimento de conteúdos digitais e cartoon o fez mudar suas áreas de interesse levando-o a optar pelo presente curso de Sistemas e Mídias Digitais, escolha mais acertada diga-se de passagem. Dedicado a seguir a vertente de design 3d e animação seus trabalhos vem se consolidando na pintura digital com um estilo mais cartoonizado.
+		</div>
+	<div id="artista"><div id="fita"><img src="fita2.png" width="120%"></div><img src="artista.jpg" alt="foto de artista" width="100%">
+	</div>
+
+</div>
+<div class="bg-image" id="img3">
+       <h1>Portfólio</h1><div id="content">
+Aqui estão algumas de meus últimos trabalhos, aproveite!
+É muito bom te ver por essa terras, espero que tenha feito uma boa aterrissagem. 
+       </div>
+       <br>
+       <br>
+
+<div class="row">
+  <div class="column">
+    <img src="img1.png" style="width:100%" onclick="openModal();currentSlide(1);openFullscreen()" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="img2.png" style="width:100%" onclick="openModal();currentSlide(2);openFullscreen()" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="img3.png" style="width:100%" onclick="openModal();currentSlide(3);openFullscreen()" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="img4.png" style="width:100%" onclick="openModal();currentSlide(4);openFullscreen()" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="img4.png" style="width:100%" onclick="openModal();currentSlide(5);openFullscreen()" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal();closeFullscreen()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 5</div>
+      <img src="img1.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 5</div>
+      <img src="img2.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 5</div>
+      <img src="img3.png" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 5</div>
+      <img src="img4.png" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">5 / 5</div>
+      <img src="img4.png" style="width:100%">
+    </div>
+    
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="img1.png" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img2.png" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img3.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img4.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img4.png" style="width:100%" onclick="currentSlide(5)" alt="Northern Lights">
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+<div class="bg-image" id="img4">
+	<h1>
+			Contatos
+			</h1>
+            <div id="icones">
+			 <a href="https://www.facebook.com/ElRiscador" target="_blank"><img src="iconefb.png" width="50%" alt="foguete em estilo flat design"/>
+			 </a>
+			 <a href="https://www.instagram.com/El.Riscador" target="_blank"><img src="iconeinsta.png" width="50%" alt="foguete em estilo flat design"/>
+			 </a>
+			 <a href="mailto:andre.ahsthenne@gmail.com" target="_blank"><img src="iconeemail.png" width="50%" alt="foguete em estilo flat design"/>
+			 </a>
+			 <a href="https://api.whatsapp.com/send?phone=558591545250&text=C'mon,%20let's%20talk%20about%20art%20and%20solutions!" target="_blank"><img src="iconewtp.png" width="50%" alt="foguete em estilo flat design"/>
+			 </a>
+			 <a href="https://plus.google.com/102964803776859545233" target="_blank"><img src="iconeg.png" width="50%" alt="foguete em estilo flat design"/>
+			 </a>
+			 <a href="https://www.behance.net/andreahsth3c1b" target="_blank"><img src="iconebe.png" width="50%" alt="foguete em estilo flat design"/>
+			 </a>
+			</div>
+
+
+
+
+<script>
+// When the user scrolls down 50px from the top of the document, resize the header's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+        document.getElementById("cxnav").style.width= "180px";
+    } else {
+        document.getElementById("cxnav").style.width= "45%";
+    }
+}
+
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+
+$('.my-paroller').paroller();
+
+
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+var elem = document.documentElement;
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.mozRequestFullScreen) { /* Firefox */
+    elem.mozRequestFullScreen();
+  } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE/Edge */
+    elem.msRequestFullscreen();
+  }
+}
+
+function closeFullscreen() {
+  if (document.exitFullscreen) {
+    document.exitFullscreen();
+  } else if (document.mozCancelFullScreen) {
+    document.mozCancelFullScreen();
+  } else if (document.webkitExitFullscreen) {
+    document.webkitExitFullscreen();
+  } else if (document.msExitFullscreen) {
+    document.msExitFullscreen();
+  }
+}
+
+</script>
+</body>
+</html>
