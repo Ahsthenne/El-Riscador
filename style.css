@@ -56,6 +56,17 @@ nav a:hover{
   text-align: center;
   transition: 0.2s;
 }
+#titulo{
+  font-family: Antonio;
+  font-weight: bold;
+  font-size: 10vw;
+  padding: 0;
+  position: relative;
+  top: 0;
+  right: 10%;
+  text-align: center;
+  z-index: 4;
+}
 h1{
   font-family: Antonio;
   font-size: 4.8vw;
@@ -95,16 +106,16 @@ blockquote{
   font-size: 1.6vw;
   font-weight: bold;
   position: relative;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
   width: 50%;
   height: 80%;
-
+  max-height: 48vw;
   margin: 0;
   text-align: center;
-  padding: 10%;
+  padding: 8%;
 }
 .bg-textsobre {
   background: url("textbgtrans2.png") no-repeat;
@@ -116,37 +127,42 @@ blockquote{
   font-weight: bold;
   position: relative;
   bottom: -40%;
-  left: 39%;
+  left: 37%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  max-width: 40%;
+  width: 50%;
   height: 80%;
+  max-height: 45vw;
   margin: 0;
   text-align: center;
   text-overflow: auto;
-  padding: 5%;
+  padding: 4% 8%;
 }
 #icones{
   position: relative;
-  top: 20%;
+  top: 2vw;
   left: 50%;
-  width: 80%;
+  width: 75%;
+  height: auto;
   transform: translate(-50%, -50%);
   margin-left: 4%;
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 2;
+  text-decoration: none;
+  border-spacing: 0;
+  z-index: 2222222;
 }
 #imgicones{
-  width: 40%;
+  width: 35%;
+  padding: 0;
 }
 #imgpromo{
   width: 80%;
 }
 #promo{
   position: relative;
-  bottom: 22%;
+  bottom: 20vw;
   left: 20%;
   width: 20%;
   z-index: 2;
@@ -195,7 +211,7 @@ blockquote{
 .my-paroller{
   position: fixed;
   bottom: -48%;
-  right: 2%;
+  left: 2%;
   width: 16%;
 }
 #foguete{
@@ -206,7 +222,7 @@ blockquote{
   z-index: 3;
 }
 #imgfoguete{
-  width: 80%;
+  width: 15vw;
 }
 @keyframes animafoguete{
   0%{
@@ -237,8 +253,8 @@ blockquote{
   transform: rotate(25deg);
   -ms-transform: rotate(25deg);
   -webkit-transform: rotate(25deg);
-  top: -68%;
-  left: 61%;
+  bottom: 28vw;
+  left: 60%;
   border-radius: 15px;
   z-index: 2;
 }
@@ -258,8 +274,63 @@ blockquote{
   width: 100%;
   height: 28vw;
 }
+form{
+  font-size: 16px;
+  background: #db894d;
+  max-width: 50%;
+  top: 20%;
+  margin: 40px auto;
+  padding: 10px 10px 10px 10px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+}
+h4{
+  font-family: Antonio;
+  font-size: 2.3vw;
+  color: black;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 12px;
+  padding-top: 20px;
+}
+input, textarea{
+  font-family: JosefinSanslight;
+  font-size: 1.6vw;
+  width: 100%;
+  padding: 1%;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+}
+.enviar input {
+  background-color: #e9b468;
+  color: #773817;
+  height: 40px;
+  width: 100%;
+  font-weight: bold;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border: none;
+  color: #773817;
+  cursor: pointer;
+  text-orientation: center;
+  align-content: center;
+  justify-content: center;
+}
+.enviar input:hover{
+  background: #be7a4b;
+}
+textarea {
+  width: 30vw;
+  height: 20%;
+  line-height: 80%;
+  overflow: auto;
+}
 .row > .column {
-  padding: 5px 20px;
+  width: 15%;
+  padding: 20px 4px;
   margin-left: 6.5%;
   z-index: 22222222;
 }

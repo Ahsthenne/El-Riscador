@@ -32,6 +32,7 @@
       </nav>
 </div>
 
+
 <div class="my-paroller"
 data-paroller-factor="1.5" data-paroller-type="foreground"
 data-paroller-direction="vertical"
@@ -43,7 +44,7 @@ data-paroller-factor-lg="1920"><img src="foguete.png" alt="foguete em estilo fla
 
 
 <div class="bg-image" id="img1">
-	
+	<div id="titulo">El Riscador</div>
 	<div id ="content"></div>
 	<div class="bg-text">
 	É muito bom te ver por essa terras, espero que tenha feito uma boa aterrissagem. Aqui você encrontrará alguns dos trabalhos do designer em construção André Ahsthenne, espero que curta sua estadia. Ah! aproveita logo pra fazer o pedido de sua arte clicando no adesivo ao lado ou então ao final do seu voo em terra firme (no rodapé do site rsrsrs), você decide. Pronto pra decolar piloto?
@@ -53,7 +54,7 @@ data-paroller-factor-lg="1920"><img src="foguete.png" alt="foguete em estilo fla
 
 <div class="bg-image" id="img2">
 	<h1>Sobre mim</h1>
-	<div class="bg-textsobre"><br>André Ahsthenne<br><br>Formado em Gestão Portuária (do mar ao céu, tão poético), mas a paixão por desenvolvimento de conteúdos digitais, game art e cartoon o fez mudar suas áreas de interesse levando-o a ingressar na nave de Sistemas e Mídias Digitais, escolha mais acertada diga-se de passagem. Dedicado a seguir a vertente de design 3d e animação seus trabalhos vem se consolidando na pintura digital com um estilo mais cartoonizado.
+	<div class="bg-textsobre"><br>André Ahsthenne<br><br><br>Formado em Gestão Portuária (do mar ao céu, tão poético), mas a paixão por desenvolvimento de conteúdos digitais, game art e cartoon o fez mudar suas áreas de interesse levando-o a ingressar na nave de Sistemas e Mídias Digitais, escolha mais acertada diga-se de passagem. Dedicado a seguir a vertente de design 3d e animação seus trabalhos vem se consolidando na pintura digital com um estilo mais cartoonizado.
 		<blockquote>"Ao infinito e além!!!"</blockquote>
     </div>
 	     <div id="artista"><div id="fita"><img src="fita1.png" id="imgfita" alt="fita adesiva sobreposta sobre a foto do artista"></div><img src="artista.jpg" alt="foto do artista André Ahsthenne" id="imgartista">
@@ -62,7 +63,7 @@ data-paroller-factor-lg="1920"><img src="foguete.png" alt="foguete em estilo fla
 </div>
 <div class="bg-image" id="img3">
        <h1>Portfólio</h1><div id="content">
-Aqui estão alguns dos últimos trabalhos, clique para apliar e saber um poucos sobre elas. 
+Aqui estão alguns dos últimos trabalhos, clique para ampliar e saber um poucos sobre elas. 
        </div>
        <br>
        <br>
@@ -164,6 +165,34 @@ Aqui estão alguns dos últimos trabalhos, clique para apliar e saber um poucos 
 			</div>
 
 
+		<form name="formteste" action="" method="post">
+
+<h4>Envie seu comentário</h4>
+
+<p class="nome">
+ <input type="text" name="nome" placeholder="informe seu nome" required="required">
+ </p>
+
+<p class="email">
+ <input type="email" name="email" placeholder="informe seu email" required="required">
+ </p>
+
+<p class="assunto">
+ <input type="text" name="assunto" placeholder="informe o assunto" required="required">
+ </p>
+
+<p class="mensagem">
+ <textarea name="mensagem" placeholder="deixe sua mensagem"></textarea>
+ </p>
+
+<p class="enviar">
+ <input type="submit" name="enviar" value="Enviar">
+ </p>
+
+</form>
+
+
+
 
 
 <script>
@@ -172,7 +201,7 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("cxnav").style.width= "10%";
+        document.getElementById("cxnav").style.width= "16%";
     } else {
         document.getElementById("cxnav").style.width= "40%";
     }
