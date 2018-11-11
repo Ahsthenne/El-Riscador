@@ -211,8 +211,10 @@ blockquote{
 .my-paroller{
   position: fixed;
   bottom: -48%;
-  left: 2%;
-  width: 5vh;
+  right: -2%;
+  width: 10%;
+  height: 10%;
+  margin: 0;
 }
 #foguete{
   position: absolute;
