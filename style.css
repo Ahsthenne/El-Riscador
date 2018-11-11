@@ -103,7 +103,7 @@ blockquote{
   background-size: contain; /* Fallback color */
   color: #000;
   font-family: JosefinSanslight;
-  font-size: 1.6vw;
+  font-size: 2vw;
   font-weight: bold;
   position: relative;
   top: 30%;
@@ -123,7 +123,7 @@ blockquote{
   background-size: contain; /* Fallback color */
   color: #000;
   font-family: JosefinSanslight;
-  font-size: 1.6vw;
+  font-size: 2vw;
   font-weight: bold;
   position: relative;
   bottom: -40%;
@@ -136,7 +136,7 @@ blockquote{
   margin: 0;
   text-align: center;
   text-overflow: auto;
-  padding: 4% 8%;
+  padding:0 8%;
 }
 #icones{
   position: relative;
@@ -212,7 +212,7 @@ blockquote{
   position: fixed;
   bottom: -48%;
   left: 2%;
-  width: 16%;
+  width: 5vh;
 }
 #foguete{
   position: absolute;
@@ -284,6 +284,7 @@ form{
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
+  z-index: 4;
 }
 h4{
   font-family: Antonio;
@@ -382,10 +383,11 @@ textarea {
 .close {
   color: white;
   position: fixed;
-  top: 25px;
-  right: 50px;
+  top: 5%;
+  right: 5%;
   font-size: 70px;
   font-weight: bold;
+  z-index: 2222222;
 }
 
 .close:hover,
@@ -409,7 +411,7 @@ textarea {
   cursor: pointer;
   position: absolute;
   bottom: 0;
-  width: auto;
+  width: 10vh;
   height: auto;
   padding: 20% 5% 20% 5%;
   margin-top: 50%;
