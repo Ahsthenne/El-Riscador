@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>El Riscador</title>
+<title>El Riscador!</title>
 		<meta charset="UTF-8">
-		<meta name="descrição" content="Commissions", "Digital Art", "Portfolio">
+		<meta name="descrição" content="Commissions, Digital Art, Portfolio">
 		<meta name="keywords" content="HTML, CSS, XML, JavaScript">
 		<meta name="Author" content="Andre Ahsthenne">
 		<meta name="viewport" content="width=devicewidth, initial-scale=1.0">
@@ -22,12 +22,10 @@
 <div id="cxnav">
        <nav>
 			 <ol>
-			 <ul>
 			 <li><a href="#img1">Home</a></li>
 			 <li><a href="#img2">Sobre</a></li>
 			 <li><a href="#img3">Portfólio</a></li>
 			 <li><a href="#img4">Contato</a></li>
-			 </ul>
 			 </ol>
       </nav>
 </div>
@@ -45,7 +43,7 @@ data-paroller-factor-lg="1920"><img src="foguete.png" alt="foguete em estilo fla
 
 <div class="bg-image" id="img1">
 	<div id="titulo">El Riscador</div>
-	<div id ="content">
+	<div class ="content">
 	<div class="bg-text">
 	É muito bom te ver por essa terras, espero que tenha feito uma boa aterrissagem. Aqui você encrontrará alguns dos trabalhos do designer em construção André Ahsthenne, espero que curta sua estadia. Ah! aproveita logo pra fazer o pedido de sua arte clicando no adesivo ao lado ou então ao final do seu voo em terra firme (no rodapé do site rsrsrs), você decide. Pronto pra decolar piloto?
     </div>
@@ -63,7 +61,7 @@ data-paroller-factor-lg="1920"><img src="foguete.png" alt="foguete em estilo fla
 
 </div>
 <div class="bg-image" id="img3">
-       <h1>Portfólio</h1><div id="content">
+       <h1>Portfólio</h1><div class="content">
 Aqui estão alguns dos últimos trabalhos, clique para ampliar e saber um poucos sobre elas. 
        </div>
        <br>
@@ -144,22 +142,22 @@ Aqui estão alguns dos últimos trabalhos, clique para ampliar e saber um poucos
 			Contatos
 			</h1>
             <div id="icones">
-			 <a href="https://www.facebook.com/ElRiscador" target="_blank"><img src="iconefb.png" id="imgicones" alt="ícone do Facebook correspondente da página El Riscador" />
+			 <a href="https://www.facebook.com/ElRiscador" target="_blank"><img src="iconefb.png" class="imgicones" alt="ícone do Facebook correspondente da página El Riscador" />
 			 </a>
-			 <a href="https://www.instagram.com/El.Riscador" target="_blank"><img src="iconeinsta.png" id="imgicones" alt="ícone do Instagram correspondente da página El Riscador" />
+			 <a href="https://www.instagram.com/El.Riscador" target="_blank"><img src="iconeinsta.png" class="imgicones" alt="ícone do Instagram correspondente da página El Riscador" />
 			 </a>
-			 <a href="mailto:andre.ahsthenne@gmail.com" target="_blank"><img src="iconeemail.png" id="imgicones" alt="ícone de contato para email" />
+			 <a href="mailto:andre.ahsthenne@gmail.com" target="_blank"><img src="iconeemail.png" class="imgicones" alt="ícone de contato para email" />
 			 </a>
-			 <a href="https://api.whatsapp.com/send?phone=558591545250&text=C'mon,%20let's%20talk%20about%20art%20and%20solutions!" target="_blank"><img src="iconewtp.png" id="imgicones" alt="ícone de contato para o Whatsapp" />
+			 <a href="https://api.whatsapp.com/send?phone=558591545250&text=C'mon,%20let's%20talk%20about%20art%20and%20solutions!" target="_blank"><img src="iconewtp.png" class="imgicones" alt="ícone de contato para o Whatsapp" />
 			 </a>
-			 <a href="https://plus.google.com/102964803776859545233" target="_blank"><img src="iconeg.png" id="imgicones"alt="ícone do Google+ correspondente da página El Riscador"  />
+			 <a href="https://plus.google.com/102964803776859545233" target="_blank"><img src="iconeg.png" class="imgicones" alt="ícone do Google+ correspondente da página El Riscador"  />
 			 </a>
-			 <a href="https://www.behance.net/andreahsth3c1b" target="_blank"><img src="iconebe.png" id="imgicones" alt="ícone do Behance correspondente da página El Riscador" />
+			 <a href="https://www.behance.net/andreahsth3c1b" target="_blank"><img src="iconebe.png" class="imgicones" alt="ícone do Behance correspondente da página El Riscador" />
 			 </a>
 			</div>
 
 
-		<form name="formteste" action="" method="post">
+		<form name="formteste" action="none" method="post">
 
 <h4>Envie seu comentário</h4>
 
@@ -185,7 +183,7 @@ Aqui estão alguns dos últimos trabalhos, clique para ampliar e saber um poucos
 
 </form>
 
-
+</div>
 
 
 
@@ -195,9 +193,9 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("cxnav").style.width= "16%";
+        document.getElementById("cxnav").style.width= "5%";
     } else {
-        document.getElementById("cxnav").style.width= "40%";
+        document.getElementById("cxnav").style.width= "35%";
     }
 }
 

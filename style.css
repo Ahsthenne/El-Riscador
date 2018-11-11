@@ -23,10 +23,11 @@ body, html {
 * {
   box-sizing: border-box;
 }
-nav ul {
+nav ol {
   list-style: none;
   text-align: center;
-  padding: 5px;
+  padding: 1%;
+  margin: 0;
 }
 nav li{
   list-style: none;
@@ -153,7 +154,7 @@ blockquote{
   border-spacing: 0;
   z-index: 2222222;
 }
-#imgicones{
+.imgicones{
   width: 35%;
   padding: 0;
 }
@@ -189,6 +190,7 @@ blockquote{
   position: fixed;
   top: 0px;
   right: 0;
+  width: 35%;
   display: flex;
   flex-flow: column space-between;
   align-items: center;
@@ -196,7 +198,7 @@ blockquote{
   z-index: 1000;
   transition: width 1s, height 0.1s;
 }
-#content{
+.content{
   position: relative;
   top: 20px;
   left: 50%;
