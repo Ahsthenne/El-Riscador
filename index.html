@@ -20,66 +20,68 @@
 
 <body>
 <div id="cxnav">
-<nav>
+       <nav>
 			 <ol>
 			 <ul>
 			 <li><a href="#img1">Home</a></li>
 			 <li><a href="#img2">Sobre</a></li>
 			 <li><a href="#img3">Portfólio</a></li>
-			 <li><a href="#img4">Contatos</a></li>
+			 <li><a href="#img4">Contato</a></li>
 			 </ul>
 			 </ol>
-			</nav>
+      </nav>
 </div>
 
 <div class="my-paroller"
-data-paroller-factor="1.9" data-paroller-type="foreground"
+data-paroller-factor="1.5" data-paroller-type="foreground"
 data-paroller-direction="vertical"
-data-paroller-factor-lg="1920"><img src="foguete.png" width="50%"></div>
+data-paroller-factor-lg="1920"><img src="foguete.png" alt="foguete em estilo flat"></div>
+
+
+<div id="foguete"><img src="foguete.png" id="imgfoguete" alt="foguete em estilo flat"></div>
 
 
 
 <div class="bg-image" id="img1">
 	
-	<h1>El Riscador</h1>
 	<div id ="content"></div>
 	<div class="bg-text">
-	É muito bom te ver por essa terras, espero que tenha feito uma boa aterrissagem. Aqui você encrontrará alguns dos trabalho do designer em construção André Ahsthenne, espero que aproveite a estadia e aproveita e corre pra fazer o pedido de sua arte.
+	É muito bom te ver por essa terras, espero que tenha feito uma boa aterrissagem. Aqui você encrontrará alguns dos trabalhos do designer em construção André Ahsthenne, espero que curta sua estadia. Ah! aproveita logo pra fazer o pedido de sua arte clicando no adesivo ao lado ou então ao final do seu voo em terra firme (no rodapé do site rsrsrs), você decide. Pronto pra decolar piloto?
     </div>
-    <div id="promo" src="adesivopromo"></div>
+    <div id="promo"><img src="adesivopromo.png" alt="adesivo promocional indicando link para contatos" id="imgpromo"><div id="textpromo"><a href="#img4">Clique aqui pra encomendar sua arte e combinar valores!</a></div></div>
 </div>
 
 <div class="bg-image" id="img2">
-	<h1>Sobre</h1>
-	<div class="bg-textsobre"><br>André Ahsthenne<br><br>Formado em Gestão Portuária, porém sua paixão por desenvolvimento de conteúdos digitais e cartoon o fez mudar suas áreas de interesse levando-o a optar pelo presente curso de Sistemas e Mídias Digitais, escolha mais acertada diga-se de passagem. Dedicado a seguir a vertente de design 3d e animação seus trabalhos vem se consolidando na pintura digital com um estilo mais cartoonizado.
-		</div>
-	<div id="artista"><div id="fita"><img src="fita2.png" width="120%"></div><img src="artista.jpg" alt="foto de artista" width="100%">
+	<h1>Sobre mim</h1>
+	<div class="bg-textsobre"><br>André Ahsthenne<br><br>Formado em Gestão Portuária (do mar ao céu, tão poético), mas a paixão por desenvolvimento de conteúdos digitais, game art e cartoon o fez mudar suas áreas de interesse levando-o a ingressar na nave de Sistemas e Mídias Digitais, escolha mais acertada diga-se de passagem. Dedicado a seguir a vertente de design 3d e animação seus trabalhos vem se consolidando na pintura digital com um estilo mais cartoonizado.
+		<blockquote>"Ao infinito e além!!!"</blockquote>
+    </div>
+	     <div id="artista"><div id="fita"><img src="fita1.png" id="imgfita" alt="fita adesiva sobreposta sobre a foto do artista"></div><img src="artista.jpg" alt="foto do artista André Ahsthenne" id="imgartista">
 	</div>
 
 </div>
 <div class="bg-image" id="img3">
        <h1>Portfólio</h1><div id="content">
-Aqui estão algumas de meus últimos trabalhos, aproveite!
-É muito bom te ver por essa terras, espero que tenha feito uma boa aterrissagem. 
+Aqui estão alguns dos últimos trabalhos, clique para apliar e saber um poucos sobre elas. 
        </div>
        <br>
        <br>
 
 <div class="row">
   <div class="column">
-    <img src="img1.png" style="width:100%" onclick="openModal();currentSlide(1);openFullscreen()" class="hover-shadow cursor">
+    <img src="img1.png" style="width:100%" onclick="openModal();currentSlide(1);openFullscreen()" class="hover-shadow cursor" alt="pintura digital de um porquinho genérico chafurdando na lama!">
   </div>
   <div class="column">
-    <img src="img2.png" style="width:100%" onclick="openModal();currentSlide(2);openFullscreen()" class="hover-shadow cursor">
+    <img src="img2.png" style="width:100%" onclick="openModal();currentSlide(2);openFullscreen()" class="hover-shadow cursor" alt="pintura digital do pokemón Voltorb.">
   </div>
   <div class="column">
-    <img src="img3.png" style="width:100%" onclick="openModal();currentSlide(3);openFullscreen()" class="hover-shadow cursor">
+    <img src="img3.png" style="width:100%" onclick="openModal();currentSlide(3);openFullscreen()" class="hover-shadow cursor" alt="Outro pokemón, Gliscor, uns dos meus trabalhos preferidos.">
   </div>
   <div class="column">
-    <img src="img4.png" style="width:100%" onclick="openModal();currentSlide(4);openFullscreen()" class="hover-shadow cursor">
+    <img src="img4.png" style="width:100%" onclick="openModal();currentSlide(4);openFullscreen()" class="hover-shadow cursor" alt="Estudo de luz direta, um morango pintado digitalmente.">
   </div>
   <div class="column">
-    <img src="img4.png" style="width:100%" onclick="openModal();currentSlide(5);openFullscreen()" class="hover-shadow cursor">
+    <img src="img4.png" style="width:100%" onclick="openModal();currentSlide(5);openFullscreen()" class="hover-shadow cursor" alt="morango cartunizado">
   </div>
 </div>
 
@@ -89,27 +91,27 @@ Aqui estão algumas de meus últimos trabalhos, aproveite!
 
     <div class="mySlides">
       <div class="numbertext">1 / 5</div>
-      <img src="img1.png" style="width:100%">
+      <img src="img1.png" style="width:100%" alt="porco na lama">
     </div>
 
     <div class="mySlides">
       <div class="numbertext">2 / 5</div>
-      <img src="img2.png" style="width:100%">
+      <img src="img2.png" style="width:100%" alt="pokemón voltorb">
     </div>
 
     <div class="mySlides">
       <div class="numbertext">3 / 5</div>
-      <img src="img3.png" style="width:100%">
+      <img src="img3.png" style="width:100%" alt="pokemón gliscor">
     </div>
     
     <div class="mySlides">
       <div class="numbertext">4 / 5</div>
-      <img src="img4.png" style="width:100%">
+      <img src="img4.png" style="width:100%" alt="morango cartunizado">
     </div>
     
     <div class="mySlides">
       <div class="numbertext">5 / 5</div>
-      <img src="img4.png" style="width:100%">
+      <img src="img4.png" style="width:100%" alt="morango">
     </div>
     
     
@@ -122,16 +124,16 @@ Aqui estão algumas de meus últimos trabalhos, aproveite!
 
 
     <div class="column">
-      <img class="demo cursor" src="img1.png" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+      <img class="demo cursor" src="img1.png" style="width:100%" onclick="currentSlide(1)" alt="pintura digital de um porquinho genérico chafurdando na lama!">
     </div>
     <div class="column">
-      <img class="demo cursor" src="img2.png" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+      <img class="demo cursor" src="img2.png" style="width:100%" onclick="currentSlide(2)" alt="pintura digital do pokemón Voltorb.">
     </div>
     <div class="column">
-      <img class="demo cursor" src="img3.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+      <img class="demo cursor" src="img3.png" style="width:100%" onclick="currentSlide(3)" alt="Outro pokemón, Gliscor, uns dos meus trabalhos preferidos.">
     </div>
     <div class="column">
-      <img class="demo cursor" src="img4.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+      <img class="demo cursor" src="img4.png" style="width:100%" onclick="currentSlide(4)" alt="Estudo de luz direta, um morango pintado digitalmente.">
     </div>
     <div class="column">
       <img class="demo cursor" src="img4.png" style="width:100%" onclick="currentSlide(5)" alt="Northern Lights">
@@ -147,17 +149,17 @@ Aqui estão algumas de meus últimos trabalhos, aproveite!
 			Contatos
 			</h1>
             <div id="icones">
-			 <a href="https://www.facebook.com/ElRiscador" target="_blank"><img src="iconefb.png" width="50%" alt="foguete em estilo flat design"/>
+			 <a href="https://www.facebook.com/ElRiscador" target="_blank"><img src="iconefb.png" id="imgicones" alt="ícone do Facebook correspondente da página El Riscador" />
 			 </a>
-			 <a href="https://www.instagram.com/El.Riscador" target="_blank"><img src="iconeinsta.png" width="50%" alt="foguete em estilo flat design"/>
+			 <a href="https://www.instagram.com/El.Riscador" target="_blank"><img src="iconeinsta.png" id="imgicones" alt="ícone do Instagram correspondente da página El Riscador" />
 			 </a>
-			 <a href="mailto:andre.ahsthenne@gmail.com" target="_blank"><img src="iconeemail.png" width="50%" alt="foguete em estilo flat design"/>
+			 <a href="mailto:andre.ahsthenne@gmail.com" target="_blank"><img src="iconeemail.png" id="imgicones" alt="ícone de contato para email" />
 			 </a>
-			 <a href="https://api.whatsapp.com/send?phone=558591545250&text=C'mon,%20let's%20talk%20about%20art%20and%20solutions!" target="_blank"><img src="iconewtp.png" width="50%" alt="foguete em estilo flat design"/>
+			 <a href="https://api.whatsapp.com/send?phone=558591545250&text=C'mon,%20let's%20talk%20about%20art%20and%20solutions!" target="_blank"><img src="iconewtp.png" id="imgicones" alt="ícone de contato para o Whatsapp" />
 			 </a>
-			 <a href="https://plus.google.com/102964803776859545233" target="_blank"><img src="iconeg.png" width="50%" alt="foguete em estilo flat design"/>
+			 <a href="https://plus.google.com/102964803776859545233" target="_blank"><img src="iconeg.png" id="imgicones"alt="ícone do Google+ correspondente da página El Riscador"  />
 			 </a>
-			 <a href="https://www.behance.net/andreahsth3c1b" target="_blank"><img src="iconebe.png" width="50%" alt="foguete em estilo flat design"/>
+			 <a href="https://www.behance.net/andreahsth3c1b" target="_blank"><img src="iconebe.png" id="imgicones" alt="ícone do Behance correspondente da página El Riscador" />
 			 </a>
 			</div>
 
@@ -165,14 +167,14 @@ Aqui estão algumas de meus últimos trabalhos, aproveite!
 
 
 <script>
-// When the user scrolls down 50px from the top of the document, resize the header's font size
+//Quando rolar a pagina 30px para baixo o elemento nav se desloca para a direita na vertical
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-    if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
-        document.getElementById("cxnav").style.width= "180px";
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("cxnav").style.width= "10%";
     } else {
-        document.getElementById("cxnav").style.width= "45%";
+        document.getElementById("cxnav").style.width= "40%";
     }
 }
 
