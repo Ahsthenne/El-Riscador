@@ -369,7 +369,7 @@ textarea {
   background-color: #fefefe;
   background-size: contain;
   margin: auto;
-  top: 0;
+  top: 10%;
   left: 50%;
   transform: translate(-50%);
   padding: auto;
@@ -387,7 +387,7 @@ textarea {
   right: 5%;
   font-size: 70px;
   font-weight: bold;
-  z-index: 2222222;
+  z-index: 22222;
 }
 
 .close:hover,
@@ -422,12 +422,17 @@ textarea {
   border-radius: 15px;
   user-select: none;
   -webkit-user-select: none;
+  z-index: 22222;
 }
 
 /* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 15px;
+}
+.prev{
+  left: 0;
+  z-index: 22222;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -446,7 +451,7 @@ textarea {
 }
 
 img {
-  margin-bottom: -17px;
+  margin-bottom: -10px;
   z-index: 2222222222;
 }
 
