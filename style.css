@@ -210,14 +210,6 @@ blockquote{
   color: white;
   text-align: center
 }
-.my-paroller{
-  position: fixed;
-  bottom: -48%;
-  right: -2%;
-  width: 10%;
-  height: 10%;
-  margin: 0;
-}
 #foguete{
   position: absolute;
   top: 18px;
@@ -226,7 +218,7 @@ blockquote{
   z-index: 3;
 }
 #imgfoguete{
-  width: 15vw;
+  width: 13vw;
 }
 @keyframes animafoguete{
   0%{
@@ -373,7 +365,7 @@ textarea {
   background-color: #fefefe;
   background-size: contain;
   margin: auto;
-  top: 10%;
+  top: 0;
   left: 50%;
   transform: translate(-50%);
   padding: auto;
